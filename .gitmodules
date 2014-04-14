@@ -4,3 +4,6 @@
 [submodule "bundle/syntastic"]
 	path = bundle/syntastic
 	url = https://github.com/scrooloose/syntastic.git
+[submodule "bundle/drupalvim"]
+	path = bundle/drupalvim
+	url = http://git.drupal.org/project/vimrc.git
