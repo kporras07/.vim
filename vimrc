@@ -17,4 +17,4 @@ set list listchars=tab:>-,trail:.,extends:>
 
 au BufRead,BufNewFile *.twig set syntax=htmljinja
 map <C-n> :NERDTreeToggle<CR>
-let g:syntastic_phpcs_conf=" --standard=DrupalCodingStandard --extensions=php,module,inc,install,test,profile,theme"
+let g:syntastic_phpcs_conf=" --standard=Drupal --extensions=php,module,inc,install,test,profile,theme"
