@@ -1,3 +1,7 @@
+Requirements:
+    Solarized:
+        http://www.webupd8.org/2011/04/solarized-must-have-color-paletter-for.html
+
 Installation:
 
     git clone git://github.com/kporras07/.vim.git ~/.vim
