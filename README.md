@@ -19,8 +19,6 @@ Switch to the `~/.vim` directory, and fetch submodules:
 
 PHP CodeSniffer Instructions
 
-    composer global require drupal/coder:\>7
-     ~/.composer/vendor/bin/phpcs --standard=/home/kevin/.composer/vendor/drupal/coder/coder_sniffer/Drupal /path/to/example.module
-    pear install PHP_CodeSniffer
-    sudo cp -r ~/Drupal/ /usr/share/pear/PHP/CodeSniffer/Standards/  ó carpeta Drupal de http://ftp.drupal.org/files/projects/drupalcs-7.x-1.x-dev.tar.gz
+    composer global require drupal/coder:\>8
+    cp -r ~/.composer/vendor/drupal/coder/coder_sniffer/Drupal* ~/.composer/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/
 
