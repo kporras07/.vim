@@ -1,12 +1,12 @@
 [submodule "bundle/fugitive"]
 	path = bundle/fugitive
-	url = http://github.com/tpope/vim-fugitive.git
+	url = https://github.com/tpope/vim-fugitive.git
 [submodule "bundle/syntastic"]
 	path = bundle/syntastic
 	url = https://github.com/scrooloose/syntastic.git
 [submodule "bundle/drupalvim"]
 	path = bundle/drupalvim
-	url = http://git.drupal.org/project/vimrc.git
+	url = https://git.drupal.org/project/vimrc.git
 [submodule "bundle/tlib_vim"]
     path = bundle/tlib_vim
     url = https://github.com/tomtom/tlib_vim.git
