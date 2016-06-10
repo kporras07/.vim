@@ -18,3 +18,10 @@ set list listchars=tab:>-,trail:.,extends:>
 au BufRead,BufNewFile *.twig set syntax=htmljinja
 map <C-n> :NERDTreeToggle<CR>
 let g:syntastic_php_phpcs_args="--standard=Drupal --extensions=php,module,inc,install,test,profile,theme"
+
+" Airline
+let g:airline#extensions#tabline#enabled = 1
+set laststatus=2
+let g:airline_powerline_fonts = 1
+let g:airline#extensions#tabline#left_sep = ' '
+let g:airline#extensions#tabline#left_alt_sep = '|'
